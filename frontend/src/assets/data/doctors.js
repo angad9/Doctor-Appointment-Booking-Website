@@ -25,7 +25,7 @@ export const doctors = [
   },
   {
     id: "03",
-    name: "Dr. Sandeep Chabukswar",
+    name: "Dr. Sandeep ",
     specialization: "Dermatologist",
     avgRating: 4.8,
     totalRating: 272,
