@@ -6,6 +6,7 @@ import 'swiper/css/pagination';
 import patientAvatar from '../../assets/images/patient-avatar.png';
 import { CiStar } from "react-icons/ci";
 
+
 const Testimonail = () => {
   return (
     <div className={"mt-[30px] lg:mt-[55px]"}>
