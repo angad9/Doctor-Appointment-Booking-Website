@@ -1,5 +1,13 @@
 ## Frontend is completed Backend is now developing
 
+Deployment
+
+```bash
+npm i
+cd frontend
+npm run dev
+```
+
 #### HOME PAGE
 ![Screenshot (64)](https://github.com/angad9/Doctor-Appointment-Booking-Website/assets/73772102/6d00017f-cf81-4b99-b24f-827db27f0f18)
 
