@@ -4,6 +4,7 @@ import starIcon from "../../assets/images/Star.png";
 
 import DoctorAbout from './DoctorAbout';
 import Feedback from './Feedback';
+import SidePanel from './SidePanel';
 
 
 
@@ -14,7 +15,7 @@ const DoctorDetails = () => {
   return (
     <section>
       <div className="max-w-[1170px] px-5 mx-auto">
-
+        <div className="grid md:grid-cols-3 gap-50px">
         <div className="md:col-span-2">
           <div className="flex items-center gap-5">
             <figure className="max-w-[200px] max-h-[200px]">
@@ -39,14 +40,15 @@ const DoctorDetails = () => {
                   (272)
                 </span>
               </div>
-                
+              
                 <p className="text__para text-[14px] leading-5 md:text-[15px] lg:max-w-[390px]">
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint, tempore?
                 </p>
 
-
             </div>
           </div>
+
+         
 
           <div className="mt-[50px] border-b border-solid border-[#0066ff34]">
             <button 
@@ -75,16 +77,20 @@ const DoctorDetails = () => {
             { tab === "feedback" && <Feedback />}
           </div>
 
- 
-
-
         
         </div>
 
-        <div></div>
+        <div>
+           <SidePanel/>
+        </div>
+
+        </div>
       </div>
+
+      
+      
     </section>
   );
 };
 
-export default DoctorDetails
+export default DoctorDetails;

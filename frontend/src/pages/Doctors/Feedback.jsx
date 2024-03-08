@@ -27,7 +27,7 @@ const Feedback = () => {
             <p className="texxt-[14px] leading-6 text-textColor">
               {formateDate('02-14-2024')}
             </p>
-            <p className="text__para mt-3 font-medium text-[15px]">
+            <p className="text__para mt-0 font-medium text-[15px]">
                Good services, Highly recommended 👍
             </p>
           </div>

@@ -140,6 +140,28 @@ const Testimonail = () => {
                     </p>
                 </div>
             </SwiperSlide>
+            <SwiperSlide>
+                <div className="py-[30px] px-5 rounded-3">
+                    <div className="flex items-center gap-[13px]">
+                        <img src={patientAvatar} alt="" />
+                        <div>
+                            <h4 className="text-[18px] leading-[30px] font-semibold text-headingColor">
+                             Prajwal Gangane
+                            </h4>
+                            <div className="flex items-center gap-[8px]">
+                                <CiStar  className="text-yellowColor w-[18px] h-5"/>
+                                <CiStar  className="text-yellowColor w-[18px] h-5"/>
+                                <CiStar  className="text-yellowColor w-[18px] h-5"/>
+                                <CiStar  className="text-yellowColor w-[18px] h-5"/>
+                                <CiStar  className="text-yellowColor w-[18px] h-5"/>
+                            </div>
+                        </div>
+                    </div>
+                    <p className="text-[16px] leading-7 mt-4 text-textColor font-[400]">
+                        "I have taken medical services form them. They treat so well and they are provding the best medical services."
+                    </p>
+                </div>
+            </SwiperSlide>
         </Swiper>
     </div>
   );
